@@ -6,7 +6,7 @@ stack: node 12
 
 branches:  
   only:    
-    - master
+    - main
 
 
 cache: node_modules  
