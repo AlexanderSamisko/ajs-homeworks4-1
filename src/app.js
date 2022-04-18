@@ -7,7 +7,7 @@ export default function healthStatus(data) {
   } else if (data.health < 15) {
     condition = 'critical';
   } else {
-  condition = 'Character is otherwordly being or something went wrong, check his(her) status carefully';
+    condition = 'Character is otherwordly being or something went wrong, check his(her) status carefully';
   }
   return condition;
 }
