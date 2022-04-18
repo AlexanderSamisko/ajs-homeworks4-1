@@ -9,7 +9,7 @@ branches:
     - master
 
 
-gitcache: node_modules  
+cache: node_modules  
 
 
 install:  
